@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0088ff"
+    tools:context=".MudahLV1.MUDAH1">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Question 2/2"
+        android:gravity="center"
+        android:textColor="#ffff"
+        android:textSize="25dp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/text123"
+        android:paddingTop="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. Jika f(x) = (2x-4)2 – x2, hitunglah f(2), f(0), dan f(-2)!"
+        android:textColor="#ffff"
+        android:textSize="30dp" />
+
+    <RadioGroup
+        android:layout_below="@+id/text123"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/RadioA1">
+
+        <RadioButton
+            android:text="20"
+            android:id="@+id/RadioB1"
+            android:onClick="onRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:textColor="#ffff"
+            android:foreground="?attr/selectableItemBackground"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/RadioB2"
+            android:text="10"
+            android:textColor="#ffff"
+            android:onClick="onRadioButton"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:foreground="?attr/selectableItemBackground"/>
+
+
+        <RadioButton
+            android:id="@+id/RadioB3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:foreground="?attr/selectableItemBackground"
+            android:onClick="onRadioButton"
+            android:shadowColor="#ffff"
+            android:text="60"
+            android:textColor="#ffff"
+            android:textSize="20dp" />
+
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/RadioB4"
+            android:text="70"
+            android:onClick="onRadioButton"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#ffff"
+            android:foreground="?attr/selectableItemBackground"/>
+
+    </RadioGroup>
+
+
+
+
+</RelativeLayout>

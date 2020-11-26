@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kuis">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Quiz"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Activity.Main2Activity"></activity>
+        <activity android:name=".halaman.hal1" />
+        <activity android:name=".screen.splashscreen2" />
+        <activity android:name=".halaman.halaman4" />
+        <activity android:name=".EXPERT" />
+        <activity android:name=".SULIT" />
+        <activity android:name=".halaman.halaman3" />
+        <activity android:name=".sedanglv1.SEDANG22" />
+        <activity android:name=".sedanglv1.SEDANG2" />
+        <activity android:name=".sedanglv1.SEDANG11" />
+        <activity android:name=".sedanglv1.SEDANG1" />
+        <activity android:name=".halaman.halaman2" />
+        <activity android:name=".MudahLV1.MUDAH3" />
+        <activity android:name=".MudahLV1.MUDAH2" />
+        <activity android:name=".MudahLV1.MUDAH1" />
+        <activity android:name=".Activity.MainActivity" />
+        <activity android:name=".screen.splashscreen1" />
+        <activity android:name=".halaman.halaman1" />
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity android:name=".screen.splashscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
